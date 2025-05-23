@@ -60,7 +60,7 @@
       </nav>
     </header>
     <main>
-      <p class="text-center">
+      <p class="text-center" id="openingPara">
         Welcome to leagueformat.com! A website I decided to make to quickly
         explain the complicated league formats from around the world. This is a
         simple project website made using HTML, CSS & bootstrap.
@@ -76,13 +76,16 @@
                 src="card-images/world_map.jpg"
                 class="card-img-top h-50"
                 alt="..." />
-              <div class="card-body">
+              <div class="card-body" id="testname">
                 <h5 class="card-title">Select Relevant Continent</h5>
                 <p class="card-text">
                   Select the continent in which the league and nation you are
                   looking to view are based.
                 </p>
-                <select class="form-select" aria-label="Continent selection">
+                <select
+                  class="form-select"
+                  aria-label="Continent selection"
+                  id="continentSelect">
                   <option selected>Select Continent</option>
                   <option>United Kingdom</option>
                   <option>Europe</option>
@@ -109,6 +112,7 @@
                 <select
                   class="form-select"
                   aria-label="Country selection"
+                  id="countrySelect"
                   disabled>
                   <option selected>Open this select menu</option>
                   <option value="1">One</option>
@@ -133,6 +137,7 @@
                 <select
                   class="form-select"
                   aria-label="League selection"
+                  id="leagueSelect"
                   disabled>
                   <option selected>Open this select menu</option>
                   <option value="1">One</option>
