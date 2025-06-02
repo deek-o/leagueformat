@@ -12,15 +12,15 @@ const data = {
     'South Korea': ["K League 1", "K League 2"],
   },
   'Africa': {
-    'Japan': ["J1 League", "J2 League"],
-    'South Korea': ["K League 1", "K League 2"],
+    'South Africa': ["Betway Premiership", "National First Division"],
+    'Egypt': ["Egyptian Premier League", "Egyptian Second Division A"],
   },
   'North America': {
-    'Japan': ["J1 League", "J2 League"],
-    'South Korea': ["K League 1", "K League 2"],
+    'America': ["MLS", "USL Championship"],
+    'Canada': ["Canadian Premier League", "League1 Canada"],
   },
   'South America': {
-    'Japan': ["J1 League", "J2 League"],
-    'South Korea': ["K League 1", "K League 2"],
+    'Brazil': ["Campeonato Brasileiro Série A", "Campeonato Brasileiro Série B"],
+    'Argentina': ["Argentine Primera División", "Primera Nacional"],
   },
 };
