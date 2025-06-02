@@ -1,43 +1,26 @@
- document.getElementById('regionSelect').addEventListener('change', function() {
+const regionSelect = document.getElementById("regionSelect");
+const countrySelect = document.getElementById("countrySelect");
+const leagueSelect = document.getElementById("leagueSelect");
+
+ 
+   document.getElementById('regionSelect').addEventListener('change', function() {
    document.getElementById('countrySelect').removeAttribute('disabled');
+  const selectedRegion = this.value.trim();
+  console.log(selectedRegion + " is the selected region!");
+  const countries = Object.keys(data[selectedRegion]);
+  console.log("Countries is: ", countries);
+
+  // countries.forEach((country) => {
+  //   console.log("Country is: " + country);
+  //   const option = document.createElement("option");
+  //   option.value = country;
+  //   option.textContent = country;
+  //   countrySelect.appendChild(option);
+  // });
   });
 
    document.getElementById('countrySelect').addEventListener('change', function() {
    document.getElementById('leagueSelect').removeAttribute('disabled');
   });
 
-// document.getElementById("continentSelect").addEventListener("select", myFunction);
-   
-
-// function myFunction() {
-//   document.getElementById("openingPara").innerText = "You selected some text!";
-//   document.getElementById('countrySelect').removeAttribute('disabled');
-// }
-   
   
-  
-  // document.addEventListener('DOMContentLoaded', function () {
-  //   const continentItems = document.querySelectorAll('#continentMenu .dropdown-item');
-
-  //        continentItems.forEach(item => {
-  //     item.addEventListener('click', function (e) {
-  //       e.preventDefault(); // Prevent default link behavior
-
-  //       // Do any other action, e.g., enable League dropdown
-  //       document.getElementById('btnCountry').removeAttribute('disabled');
-  //     });
-  //   });
-  //    });
-
-  //    document.addEventListener('DOMContentLoaded', function () {
-  //   const countryItems = document.querySelectorAll('#countryMenu .dropdown-item');
-
-  //        countryItems.forEach(item => {
-  //     item.addEventListener('click', function (e) {
-  //       e.preventDefault(); // Prevent default link behavior
-
-  //       // Do any other action, e.g., enable League dropdown
-  //       document.getElementById('btnLeague').removeAttribute('disabled');
-  //     });
-  //   });
-  //    });

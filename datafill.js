@@ -1,5 +1,5 @@
 const data = {
-  'UK': {
+  'United Kingdom': {
    'England': ["Premier League", "Championship"],
    'Scotland': ["SPFL", "SPFL Championship"],
   },
