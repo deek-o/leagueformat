@@ -1,4 +1,4 @@
- document.getElementById('continentSelect').addEventListener('change', function() {
+ document.getElementById('regionSelect').addEventListener('change', function() {
    document.getElementById('countrySelect').removeAttribute('disabled');
   });
 

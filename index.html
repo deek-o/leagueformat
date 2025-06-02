@@ -21,41 +21,7 @@
         <a class="navbar-brand display-1 text-white" href="#"
           ><strong>leagueformat.com</strong></a
         >
-        <!-- <div id ="dropdowns" class="container">
-          <div class="dropdown">
-  <button id="btnContinent" class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" >
-    Continent
-  </button>
-  <ul class="dropdown-menu" id="continentMenu">
-    <li><a class="dropdown-item" href="#">United Kingdom</a></li>
-    <li><a class="dropdown-item" href="#">Europe</a></li>
-    <li><a class="dropdown-item" href="#">Africa</a></li>
-    <li><a class="dropdown-item" href="#">Asia</a></li>
-    <li><a class="dropdown-item" href="#">South America</a></li>
-    <li><a class="dropdown-item" href="#">North America</a></li>
-  </ul>
-</div>
-<div class="dropdown">
-  <button id="btnCountry" class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" disabled>
-    Country
-  </button>
-  <ul class="dropdown-menu" id="countryMenu">
-    <li><a class="dropdown-item" href="#">Action</a></li>
-    <li><a class="dropdown-item" href="#">Another action</a></li>
-    <li><a class="dropdown-item" href="#">Something else here</a></li>
-  </ul>
-</div>
-<div class="dropdown">
-  <button id="btnLeague" class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" disabled>
-    League
-  </button>
-  <ul class="dropdown-menu">
-    <li><a class="dropdown-item" href="#">Action</a></li>
-    <li><a class="dropdown-item" href="#">Another action</a></li>
-    <li><a class="dropdown-item" href="#">Something else here</a></li>
-  </ul>
-</div>  
-        </div> -->
+        
       </nav>
     </header>
     <main>
@@ -69,23 +35,23 @@
         <div class="row p-3">
           <div class="col">
             <div
-              class="card justify-content-center"
+              class="card mb-4"
               style="width: 18rem; height: 25rem">
               <img
                 src="card-images/world_map.jpg"
                 class="card-img-top h-50"
                 alt="..." />
               <div class="card-body" id="testname">
-                <h5 class="card-title">Select Relevant Continent</h5>
+                <h5 class="card-title">Select Relevant Region</h5>
                 <p class="card-text">
-                  Select the continent in which the league and nation you are
+                  Select the region in which the league and nation you are
                   looking to view are based.
                 </p>
                 <select
                   class="form-select"
-                  aria-label="Continent selection"
-                  id="continentSelect">
-                  <option selected>Select Continent</option>
+                  aria-label="Region selection"
+                  id="regionSelect">
+                  <option selected>Select Region</option>
                   <option>United Kingdom</option>
                   <option>Europe</option>
                   <option>Africa</option>
@@ -97,7 +63,7 @@
             </div>
           </div>
           <div class="col">
-            <div class="card" style="width: 18rem; height: 25rem">
+            <div class="card mb-4" style="width: 18rem; height: 25rem">
               <img
                 src="card-images/nations.jpg"
                 class="card-img-top h-50"
@@ -122,7 +88,7 @@
             </div>
           </div>
           <div class="col">
-            <div class="card" style="width: 18rem; height: 25rem">
+            <div class="card mb-4" style="width: 18rem; height: 25rem">
               <img
                 src="card-images/card-leagues.jpg"
                 class="card-img-top h-50"
@@ -131,7 +97,8 @@
                 <h5 class="card-title">Select Relevant League</h5>
                 <p class="card-text">
                   Finally, select the league in which you would like to view its
-                  format
+                  format like promotion and relegation.
+                  <!-- could use card footer for fixing to bottom if it becomes an issue-->
                 </p>
                 <select
                   class="form-select"
