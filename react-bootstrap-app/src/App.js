@@ -8,7 +8,7 @@ import MyStructure from './components/Structure';
 function App() {
   return (
     <>
-    <MyStructure></MyStructure>
+    <MyStructure ></MyStructure>
     </>
   );
 }

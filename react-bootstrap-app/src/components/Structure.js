@@ -7,14 +7,16 @@ function MyStructure() {
   return (
     <>
     <MyNavbar/>
-    <Container>
+    <body className="bg-dark">
+    <Container >
       <Row>
         <Col>1 of 1</Col>
         <Col>1 of 1</Col>
         <Col>1 of 1</Col>
       </Row>
-    </Container> </>
-    
+    </Container> 
+    </body>
+    </>
   );
 }
 
