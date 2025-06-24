@@ -1,9 +1,9 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import MyNavbar from './components/Navbar';
+import MyNavbar from './Navbar';
 
-function Structure() {
+function MyStructure() {
   return (
     <>
     <MyNavbar/>
@@ -18,4 +18,4 @@ function Structure() {
   );
 }
 
-export default ContainerExample;
+export default MyStructure;
