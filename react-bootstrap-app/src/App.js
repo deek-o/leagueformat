@@ -4,7 +4,7 @@ import './App.scss';
 import React from 'react';
 import MyNavbar from './components/Navbar';
 
-//ooft
+//oof
 function App() {
   return (
     <>
