@@ -1,5 +1,4 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import logo from './logo.svg';
 import './App.css';
 import './App.scss';
 import React from 'react';
@@ -9,7 +8,7 @@ import MyNavbar from './components/Navbar';
 function App() {
   return (
     <>
-    <MyNavbar/>
+    <MyNavbar />
     </>
   );
 }
