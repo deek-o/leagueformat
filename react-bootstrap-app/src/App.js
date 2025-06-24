@@ -2,13 +2,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import './App.scss';
 import React from 'react';
-import MyNavbar from './components/Navbar';
+import Structure from './components/Structure';
 
 
 function App() {
   return (
     <>
-    <MyNavbar />
+    <Structure></Structure>
     </>
   );
 }
