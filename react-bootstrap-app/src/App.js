@@ -7,7 +7,7 @@ import MyNavbar from './components/Navbar';
 //oof
 function App() {
   return (
-    <>//test
+    <>
     <MyNavbar />
     </>
   );
