@@ -1,10 +1,11 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import MyImage from '../card-images/card-leagues.jpg';
 
 function BasicCard() {
   return (
     <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={image} />
+      <Card.Img variant="top" src={MyImage} />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
         <Card.Text>
