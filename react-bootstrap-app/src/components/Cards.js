@@ -5,7 +5,7 @@ import MyImage from '../card-images/card-leagues.jpg';
 function BasicCard({ image }) {
   return (
     <Card className="h-100" style={{ width: '18rem', }}>
-      <Card.Img variant="top" src={image} />
+      <Card.Img variant="top" src={image}  style={{ height: '200px', objectFit: 'cover' }} />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
         <Card.Text>
