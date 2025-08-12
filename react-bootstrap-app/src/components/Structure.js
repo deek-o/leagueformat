@@ -3,6 +3,9 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import MyNavbar from './Navbar';
 import BasicCard from './Cards';
+import Leagues from '../card-images/card-leagues.jpg';
+import Nations from '../card-images/nations.jpg';
+import World from '../card-images/world_map.jpg';
 
 
 function MyStructure() {
@@ -15,9 +18,9 @@ function MyStructure() {
         about the various leagues from around the world and save any confusion on how the teams will be promoted, relegated or crowned champions!
         This site is created using HTML, CSS and JavaScript with the react-bootstrap framework. Hope you enjoy!</p>
       <Row className="text-center">
-        <Col><BasicCard image="https://via.placeholder.com/300x150"  /></Col>
-        <Col><BasicCard/></Col>
-        <Col><BasicCard/></Col>
+        <Col><BasicCard image={Leagues} /></Col>
+        <Col><BasicCard image={Nations} /></Col>
+        <Col><BasicCard image={World} /></Col>
       </Row>
     </Container> 
     </body>
