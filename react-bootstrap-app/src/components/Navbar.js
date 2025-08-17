@@ -9,7 +9,7 @@ import { Navbar, Nav } from 'react-bootstrap';
 
     function MyNavbar() {
   return (
-    <Navbar id="title-navbar" className="navbar bg-dark border-bottom" expand="lg">
+    <Navbar id="title-navbar" className="ps-2 navbar bg-dark border-bottom" expand="lg">
       <Navbar.Brand className="navbar-brand display-1 text-white" href="#"><strong>leagueformat.com</strong></Navbar.Brand>
     </Navbar>
   );

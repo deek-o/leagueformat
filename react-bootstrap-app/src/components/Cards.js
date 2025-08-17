@@ -1,21 +1,31 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import MyImage from '../card-images/card-leagues.jpg';
+import Form from 'react-bootstrap/Form';
 
-function BasicCard({ image }) {
+function BasicCard({ image, title, text,options = [] }) {
   return (
     <Card className="h-100" style={{ width: '18rem', }}>
       <Card.Img variant="top" src={image}  style={{ height: '200px', objectFit: 'cover' }} />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
+        {title && <Card.Title>{title}</Card.Title>}
+        {text && <Card.Text>{text}</Card.Text>}
+        
+       {/* Dropdown */}
+        {options.length > 0 && (
+          <Form.Select aria-label="Select option">
+            <option value="" disabled selected hidden>Select option</option>
+            {options.map((opt, index) => (
+              <option key={index} value={opt.value}>
+                {opt.label}
+              </option>
+            ))}
+          </Form.Select>
+        )}
       </Card.Body>
     </Card>
   );
 }
 
 export default BasicCard;
+
