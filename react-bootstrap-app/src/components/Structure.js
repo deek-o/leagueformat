@@ -24,8 +24,8 @@ function MyStructure() {
       <option value="4">North America</option>
       <option value="5">South America</option>
       <option value="6">Europe</option> */}
-      <Row className="text-center">
-        <Col><BasicCard image={World}   title={"Select Continent"} text={"Start by selecting the continent where the league is played."} 
+      <Row className="text-center g-3">
+        <Col class="pb-4"><BasicCard image={World}   title={"Select Continent"} text={"Start by selecting the continent where the league is played."} 
         options={[
         { value: "afr", label: "Africa" },
         { value: "asi", label: "Asia" },
@@ -35,9 +35,8 @@ function MyStructure() {
         { value: "eur", label: "Europe" }]}
       />
       </Col>
-        <Col><BasicCard image={Nations} title={"Select Nation"} text={"Now select the Nation in which the league exists"} options={[
-        { value: "afr", label: "Africa" },]}/></Col>
-        <Col><BasicCard image={Leagues} title={"Select League"} text={"Lastly, choose the league to view details of its format."} /></Col>
+        <Col class="pb-4"><BasicCard image={Nations} title={"Select Nation"} text={"Now select the Nation in which the league exists"} /></Col>
+        <Col class="pb-4"><BasicCard image={Leagues} title={"Select League"} text={"Lastly, choose the league to view details of its format."} /></Col>
       </Row>
     </Container> 
     </body>
