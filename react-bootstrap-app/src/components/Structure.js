@@ -7,7 +7,8 @@ import Leagues from '../card-images/card-leagues.jpg';
 import Nations from '../card-images/nations.jpg';
 import World from '../card-images/world_map.jpg';
 import countryData from "../data/continents2Nations";
-import React, { useState } from "react";
+import { useState } from "react";
+import GoButton from "./GoButton"
 
 
 
@@ -34,18 +35,20 @@ const leagueOptions = selectedContinent && selectedNation
       <p className="text-center pt-4 pb-5">Welcome to LeagueFormat.com! This passion project was created to help fans understand how 
         football leagues around the world work—whether it’s promotion, relegation, or how champions are decided. The site is built 
         with HTML, CSS, and JavaScript using the React-Bootstrap framework. I hope you find it useful and enjoy exploring!</p>
-      <Row className="text-center g-3">
-        <Col class="pb-4"><BasicCard image={World}   title={"Select Continent"} text={"Start by selecting the continent where the league is played."} 
+      <Row className="mx-auto text-center g-3" style={{ maxWidth: '1200px' }}>
+        <Col className="pb-4"><BasicCard image={World}   title={"Select Continent"} text={"Start by selecting the continent where the league is played."} 
         options={continentOptions}
         onSelect={setSelectedContinent}
       />  
       </Col>
-        <Col class="pb-4"><BasicCard image={Nations} title={"Select Nation"} text={"Now select the Nation in which the league exists"} options={nationOptions}
+        <Col className="pb-4"><BasicCard image={Nations} title={"Select Nation"} text={"Now select the Nation in which the league exists"} options={nationOptions}
         onSelect={setSelectedNation}/> </Col>
-        <Col class="pb-4"><BasicCard image={Leagues} title={"Select League"} text={"Lastly, choose the league to view details of its format."} options={leagueOptions}/></Col>
+        <Col className="pb-4"><BasicCard image={Leagues} title={"Select League"} text={"Lastly, choose the league to view details of its format."} options={leagueOptions}/></Col>
       </Row>
+      <GoButton class="g-3"></GoButton>
     </Container> 
-    </body> test
+
+    </body> 
     </>
   );
 }

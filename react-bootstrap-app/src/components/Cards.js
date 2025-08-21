@@ -1,6 +1,4 @@
-import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import MyImage from '../card-images/card-leagues.jpg';
 import Form from 'react-bootstrap/Form';
 
 function BasicCard({ image, title, text, options = [], onSelect }) {
