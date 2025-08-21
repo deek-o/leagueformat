@@ -3,7 +3,7 @@ import Button from 'react-bootstrap/Button';
 function BlockExample() {
   return (
     <div className="d-grid gap-2">
-      <Button variant="primary" size="lg">
+      <Button variant="primary" size="lg" disabled>
         Block level button
       </Button>
     </div>

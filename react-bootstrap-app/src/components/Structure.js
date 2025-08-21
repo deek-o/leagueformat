@@ -31,11 +31,12 @@ const leagueOptions = selectedContinent && selectedNation
     <>
     <MyNavbar/>
     <body className="bg-dark text-white">
-    <Container>
+    <Container >
       <p className="text-center pt-4 pb-5">Welcome to LeagueFormat.com! This passion project was created to help fans understand how 
         football leagues around the world work—whether it’s promotion, relegation, or how champions are decided. The site is built 
         with HTML, CSS, and JavaScript using the React-Bootstrap framework. I hope you find it useful and enjoy exploring!</p>
-      <Row className="mx-auto text-center g-3" style={{ maxWidth: '1200px' }}>
+        <div className="d-flex justify-content-center">
+        <Row className="mx-auto text-center g-5" style={{ maxWidth: '1200px' }}>
         <Col className="pb-4"><BasicCard image={World}   title={"Select Continent"} text={"Start by selecting the continent where the league is played."} 
         options={continentOptions}
         onSelect={setSelectedContinent}
@@ -45,6 +46,8 @@ const leagueOptions = selectedContinent && selectedNation
         onSelect={setSelectedNation}/> </Col>
         <Col className="pb-4"><BasicCard image={Leagues} title={"Select League"} text={"Lastly, choose the league to view details of its format."} options={leagueOptions}/></Col>
       </Row>
+        </div>
+      
       <GoButton class="g-3"></GoButton>
     </Container> 
 
