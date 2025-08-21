@@ -28,14 +28,14 @@ const countryData = {
       NewZealand: ["New Zealand National League"],//more to be added here]
     },
   },
-  NorthAmerica: {
+  "North America": {
     countries: {
       America: ["MLS", "USL Championship"],
       Canada: ["Canadian Premier League", "League1 Canada"],
       Mexico: ["Liga MX", "Liga de Expansión MX"]
     },
   },
-  SouthAmerica: {
+  "South America": {
     countries: {
       Argentina: ["Primera División", "Primera Nacional"],
       Brazil: ["Campeonato Série A", "Campeonato Série B"],

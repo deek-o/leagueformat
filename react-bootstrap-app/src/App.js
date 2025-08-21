@@ -2,9 +2,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import './App.scss';
 import React from 'react';
-import MyNavbar from './components/navbar';
-import BasicCard from './components/cards';
-import Structure from './components/structure';
+import MyNavbar from './components/Navbar';
+import BasicCard from './components/Cards';
+import Structure from './components/Structure';
 
 
 //oof
