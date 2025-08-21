@@ -26,6 +26,8 @@ const leagueOptions = selectedContinent && selectedNation
   ? (countryData[selectedContinent].countries[selectedNation] || []).map(l => ({ value: l, label: l }))
   : [];
 
+  const [selectedLeague, setSelectedLeague] = useState("");
+
 
   return (
     <>
@@ -44,11 +46,13 @@ const leagueOptions = selectedContinent && selectedNation
       </Col>
         <Col className="pb-4"><BasicCard image={Nations} title={"Select Nation"} text={"Now select the Nation in which the league exists"} options={nationOptions}
         onSelect={setSelectedNation}/> </Col>
-        <Col className="pb-4"><BasicCard image={Leagues} title={"Select League"} text={"Lastly, choose the league to view details of its format."} options={leagueOptions}/></Col>
+        <Col className="pb-4"><BasicCard image={Leagues} title={"Select League"} text={"Lastly, choose the league to view details of its format."} options={leagueOptions} onSelect={setSelectedLeague} /></Col>
       </Row>
         </div>
       
-      <GoButton class="g-3"></GoButton>
+      <GoButton class="g-3 " title="Go!" onClick={() => console.log("League selected:", selectedLeague)} disabled={!selectedLeague} > 
+       
+      </GoButton>
     </Container> 
 
     </body> 
