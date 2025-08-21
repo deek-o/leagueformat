@@ -44,9 +44,11 @@ function MyStructure() {
         <Col class="pb-4"><BasicCard image={Leagues} title={"Select League"} text={"Lastly, choose the league to view details of its format."} options={leagueOptions}/></Col>
       </Row>
     </Container> 
-    </body>
+    </body> test
     </>
   );
 }
 
 export default MyStructure;
+
+// test
