@@ -25,7 +25,7 @@ const countryData = {
   Oceana: {
     countries: {
       Australia: ["A-League Men"],
-      NewZealand: ["New Zealand National League"],//more to be added here]
+      "New Zealand": ["New Zealand National League"],//more to be added here]
     },
   },
   "North America": {

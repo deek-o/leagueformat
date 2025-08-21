@@ -17,13 +17,14 @@ function MyStructure() {
 
   const continentOptions = Object.keys(countryData).map(c => ({ value: c, label: c }));
 
-  const nationOptions = selectedContinent
-    ? Object.keys(countryData[selectedContinent].countries).map(n => ({ value: n, label: n }))
-    : [];
+ const nationOptions = selectedContinent
+  ? Object.keys(countryData[selectedContinent].countries).map(n => ({ value: n, label: n }))
+  : [];
 
-  const leagueOptions = selectedContinent && selectedNation
-    ? countryData[selectedContinent].countries[selectedNation].map(l => ({ value: l, label: l }))
-    : [];
+const leagueOptions = selectedContinent && selectedNation
+  ? (countryData[selectedContinent].countries[selectedNation] || []).map(l => ({ value: l, label: l }))
+  : [];
+
 
   return (
     <>
