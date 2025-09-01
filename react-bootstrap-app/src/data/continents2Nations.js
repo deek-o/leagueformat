@@ -12,13 +12,13 @@ const countryData = {
     countries: {
       Egypt: ["Egyptian Premier League", "Egyptian Second Division A", "Egyptian Second Division B"],
       Morocco: ["Botola", "Botola 2"],
-      SouthAfrica: ["Betway Premiership", "Motsepe Foundation Championship"],
+      "South Africa": ["Betway Premiership", "Motsepe Foundation Championship"],
     },
   },
   Asia: {
     countries: {
       Japan: ["J1 League", "J2 League", "J3 League"],
-      SouthKorea: ["K League 1", "K League 2"],
+      "South Korea": ["K League 1", "K League 2"],
       Saudi: ["Saudio Pro League", "Saudi First Division League", "Saudi Second Division League"]
     },
   },
