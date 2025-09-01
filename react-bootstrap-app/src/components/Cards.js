@@ -1,13 +1,13 @@
-import Card from 'react-bootstrap/Card';
-import Form from 'react-bootstrap/Form';
+import Card from "react-bootstrap/Card";
+import Form from "react-bootstrap/Form";
 
-function BasicCard({ image, title, text, options = [], onSelect }) {
+function BasicCard({ image, title, text, options = [], onSelect, value = "" }) {
   return (
-    <Card className="h-100" style={{ width: '18rem' }}>
+    <Card className="h-100" style={{ width: "18rem" }}>
       <Card.Img
         variant="top"
         src={image}
-        style={{ height: '200px', objectFit: 'cover' }}
+        style={{ height: "200px", objectFit: "cover" }}
       />
       <Card.Body>
         {title && <Card.Title>{title}</Card.Title>}
@@ -16,9 +16,11 @@ function BasicCard({ image, title, text, options = [], onSelect }) {
         {options.length > 0 && (
           <Form.Select
             aria-label={`Select option for ${title}`}
-            onChange={(e) => onSelect?.(e.target.value)}
-          >
-            <option value="" disabled selected hidden>Select option</option>
+            value={value}
+            onChange={(e) => onSelect?.(e.target.value)}>
+            <option value="" hidden>
+              Select option
+            </option>
             {options.map((opt, index) => (
               <option key={index} value={opt.value}>
                 {opt.label}
@@ -31,6 +33,4 @@ function BasicCard({ image, title, text, options = [], onSelect }) {
   );
 }
 
-
 export default BasicCard;
-
