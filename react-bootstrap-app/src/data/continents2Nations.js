@@ -4,7 +4,7 @@ const countryData = {
     countries: {
       England: ["English Premier League", "English Championship", "English League One", " English League Two"],
       Spain: ["La Liga", "Segunda División"],
-      Germany: ["Bundesliga", "2. Bundesliga", "3. Liga"],
+      // Germany: ["Bundesliga", "2. Bundesliga", "3. Liga"],
       Scotland: ["Scottish Premiership", "Scottish Championship", "Scottish League One", "Scottish League two"],
     },
   },

@@ -1,13 +1,13 @@
 import { useParams } from "react-router-dom";
 import englishPremierLeague from "../leagues/englishPremierLeague";
-import scottishPremierLeague from "../leagues/scottishPremierLeague";
+import scottishPremierLeague from "../leagues/scottishPremiership";
 import spanishLaLiga from "../leagues/spanishLaLiga";
 
 // Map slug → component
 const leagueComponents = {
   "english-premier-league": englishPremierLeague,
-  "scottish-premier-league": scottishPremierLeague,
-  "spanish-la-liga": spanishLaLiga,
+  "scottish-premiership": scottishPremierLeague,
+  "la-liga": spanishLaLiga,
 };
 
 function LeaguePage() {
