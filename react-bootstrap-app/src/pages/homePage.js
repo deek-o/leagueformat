@@ -1,12 +1,12 @@
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import BasicCard from "../components/cards";
+import BasicCard from "../components/Cards"
 import Leagues from "../card-images/card-leagues.jpg";
 import Nations from "../card-images/nations.jpg";
 import World from "../card-images/world_map.jpg";
 import countryData from "../data/continents2Nations";
-import GoButton from "../components/goButton";
+import GoButton from "../components/GoButton";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
