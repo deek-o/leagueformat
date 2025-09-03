@@ -1,16 +1,12 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
-import './App.scss';
-import React from 'react';
-import Structure from './components/Structure';
-
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
+import "./App.scss";
+import React from "react";
+import Structure from "./components/structure";
 
 //oof
 function App() {
-  return (
-    <Structure/>
-
-  );
+  return <Structure />;
 }
 
 export default App;

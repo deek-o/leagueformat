@@ -1,14 +1,14 @@
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import MyNavbar from "./Navbar";
-import BasicCard from "./Cards";
+import MyNavbar from "./navbar";
+import BasicCard from "./cards";
 import Leagues from "../card-images/card-leagues.jpg";
 import Nations from "../card-images/nations.jpg";
 import World from "../card-images/world_map.jpg";
 import countryData from "../data/continents2Nations";
 import { useState } from "react";
-import GoButton from "./GoButton";
+import GoButton from "./goButton";
 
 function MyStructure() {
   const [selectedContinent, setSelectedContinent] = useState("");

@@ -1,16 +1,21 @@
-import React from 'react';
-import { Navbar } from 'react-bootstrap';
-    
-    // <nav id="title-navbar" class="navbar bg-dark border-bottom">
-    //     <a class="navbar-brand display-1 text-white" href="#"
-    //       ><strong>leagueformat.com</strong></a
-    //     >
-    // </nav>
+import React from "react";
+import { Navbar } from "react-bootstrap";
 
-    function MyNavbar() {
+// <nav id="title-navbar" class="navbar bg-dark border-bottom">
+//     <a class="navbar-brand display-1 text-white" href="#"
+//       ><strong>leagueformat.com</strong></a
+//     >
+// </nav>
+
+function MyNavbar() {
   return (
-    <Navbar id="title-navbar" className="ps-2 navbar bg-dark border-bottom" expand="lg">
-      <Navbar.Brand className="navbar-brand display-1 text-white" href="#"><strong>leagueformat.com</strong></Navbar.Brand>
+    <Navbar
+      id="title-navbar"
+      className="ps-2 navbar bg-dark border-bottom"
+      expand="lg">
+      <Navbar.Brand className="navbar-brand display-1 text-white" href="#">
+        <strong>leagueformat.com</strong>
+      </Navbar.Brand>
     </Navbar>
   );
 }
