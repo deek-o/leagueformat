@@ -6,13 +6,15 @@ import Leagues from "../card-images/card-leagues.jpg";
 import Nations from "../card-images/nations.jpg";
 import World from "../card-images/world_map.jpg";
 import countryData from "../data/continents2Nations";
-import { useState } from "react";
 import GoButton from "../components/goButton";
+import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 function Myhomepage() {
   const [selectedContinent, setSelectedContinent] = useState("");
   const [selectedNation, setSelectedNation] = useState("");
+  const [selectedLeague, setSelectedLeague] = useState("");
+
   const navigate = useNavigate();
 
   const continentOptions = Object.keys(countryData).map((c) => ({
@@ -34,7 +36,12 @@ function Myhomepage() {
         )
       : [];
 
-  const [selectedLeague, setSelectedLeague] = useState("");
+  const handleGo = () => {
+    if (!selectedLeague) return;
+    const leagueSlug = selectedLeague.toLowerCase().replace(/\s+/g, "-");
+    console.log("Navigating to" + leagueSlug);
+    navigate(`/league/${leagueSlug}`);
+  };
 
   return (
     <>
@@ -97,7 +104,8 @@ function Myhomepage() {
         <GoButton
           className="g-3 "
           title="Go!"
-          onClick={() => navigate(`/league/${selectedLeague}`)}
+          onClick={handleGo}
+          //onClick={() => navigate(`/league/${selectedLeague.toLowerCase}`)}
           disabled={!selectedLeague}></GoButton>
       </Container>
     </>
