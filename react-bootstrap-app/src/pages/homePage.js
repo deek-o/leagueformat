@@ -8,10 +8,12 @@ import World from "../card-images/world_map.jpg";
 import countryData from "../data/continents2Nations";
 import { useState } from "react";
 import GoButton from "../components/goButton";
+import { useNavigate } from "react-router-dom";
 
 function Myhomepage() {
   const [selectedContinent, setSelectedContinent] = useState("");
   const [selectedNation, setSelectedNation] = useState("");
+  const navigate = useNavigate();
 
   const continentOptions = Object.keys(countryData).map((c) => ({
     value: c,
@@ -95,7 +97,7 @@ function Myhomepage() {
         <GoButton
           className="g-3 "
           title="Go!"
-          onClick={() => console.log("League selected:", selectedLeague)}
+          onClick={() => navigate(`/league/${selectedLeague}`)}
           disabled={!selectedLeague}></GoButton>
       </Container>
     </>

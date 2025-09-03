@@ -11,6 +11,7 @@ function MyStructure() {
         <main className="">
           <Routes>
             <Route path="/" element={<HomePage />} />
+            {/* <Route path="/league/:leagueName" element={<LeaguePage />} /> */}
           </Routes>
         </main>
       </div>
