@@ -47,11 +47,14 @@ function Myhomepage() {
     <>
       <Container>
         <p className="text-center pt-4 pb-5">
-          Welcome to LeagueFormat.com! This passion project was created to help
-          fans understand how football leagues around the world work—whether
-          it’s promotion, relegation, or how champions are decided. The site is
-          built with HTML, CSS, and JavaScript using the React-Bootstrap
-          framework. I hope you find it useful and enjoy exploring!
+          Welcome to LeagueFormat.com!
+          This passion project was created to help fans understand how football leagues around the world work 
+          — whether it’s promotion and relegation, playoff systems, or how champions are crowned. 
+          With this site, you can explore the structure of leagues across continents, from traditional formats to unique systems. 
+          This site is built with HTML, CSS, and JavaScript, using the React-Bootstrap framework. 
+          It’s a work in progress and will continue to grow as I add more leagues over time.
+          Whether you’re a curious fan, a new follower of the sport, or just someone who likes to dig into how things work, I hope you find this site helpful.
+          Thanks for visiting!
         </p>
         <div className="d-flex justify-content-center">
           <Row
