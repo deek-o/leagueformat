@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import HomePage from "../pages/homePage";
-import LeaguePage from "../pages/leaguePage";
-import MyNavbar from "../components/Navbar";
+import HomePage from "../pages/HomePage";
+import LeaguePage from "../pages/LeaguePage";
+import MyNavbar from "./Navbar";
 
 function MyStructure() {
   return (

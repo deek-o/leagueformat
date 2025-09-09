@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
-import englishPremierLeague from "../leagues/englishPremierLeague";
-import scottishPremierLeague from "../leagues/scottishPremiership";
-import spanishLaLiga from "../leagues/spanishLaLiga";
+import englishPremierLeague from "../leagues/EnglishPremierLeague";
+import scottishPremierLeague from "../leagues/ScottishPremiership";
+import spanishLaLiga from "../leagues/SpanishLaLiga";
 
 // Map slug → component
 const leagueComponents = {
