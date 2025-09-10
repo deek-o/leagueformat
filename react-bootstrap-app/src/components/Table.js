@@ -1,6 +1,6 @@
 import Table from "react-bootstrap/Table";
 
-function basicTable({ badge, pos, club, matches, points, gd }) {
+function basicTable({ teams }) {
   return (
     <Table striped bordered hover>
       <thead>

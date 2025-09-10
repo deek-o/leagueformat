@@ -1,7 +1,7 @@
 const premierLeague2024_25 = [
   {
     //1
-    //badge: "/Liverpool.png"
+    badge: "../card-images/liverpool.png",
     club: "Liverpool",
     played: 38,
     // won: 25,
