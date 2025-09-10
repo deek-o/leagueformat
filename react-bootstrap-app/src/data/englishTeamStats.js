@@ -1,7 +1,7 @@
-const premierLeague2024_25 = [
+export const englishTeamData = [
   {
     //1
-    badge: "../card-images/liverpool.png",
+    badge: "/card-images/liverpool.png",
     club: "Liverpool",
     played: 38,
     // won: 25,
@@ -14,7 +14,7 @@ const premierLeague2024_25 = [
   },
   {
     //2
-    //badge: "/Liverpool.png"
+    badge: "../card-images/liverpool.png",
     club: "Arsenal",
     played: 38,
     // won: 20,
@@ -27,7 +27,7 @@ const premierLeague2024_25 = [
   },
   {
     //3
-    //badge: "/Liverpool.png"
+    badge: "../card-images/liverpool.png",
     club: "Manchester City",
     played: 38,
     // won: 21,
@@ -40,7 +40,7 @@ const premierLeague2024_25 = [
   },
   {
     //4
-    //badge: "/Liverpool.png"
+    badge: "../card-images/liverpool.png",
     club: "Chelsea",
     played: 38,
     // won: 20,
@@ -53,7 +53,7 @@ const premierLeague2024_25 = [
   },
   {
     //5
-    //badge: "/Liverpool.png"
+    badge: "../card-images/liverpool.png",
     club: "Newcastle United",
     played: 38,
     // won: 20,
@@ -66,7 +66,7 @@ const premierLeague2024_25 = [
   },
   {
     //6
-    //badge: "/Liverpool.png"
+    badge: "../card-images/liverpool.png",
     club: "Aston Villa",
     played: 38,
     // won: 19,
@@ -79,7 +79,7 @@ const premierLeague2024_25 = [
   },
   {
     //7
-    //badge: "/Liverpool.png"
+    badge: "../card-images/liverpool.png",
     club: "Nottingham Forest",
     played: 38,
     // won: 19,
@@ -92,7 +92,7 @@ const premierLeague2024_25 = [
   },
   {
     //8
-    //badge: "/Liverpool.png"
+    badge: "../card-images/liverpool.png",
     club: "Brighton & Hove Albion",
     played: 38,
     // won: 16,
@@ -105,7 +105,7 @@ const premierLeague2024_25 = [
   },
   {
     //9
-    //badge: "/Liverpool.png"
+    badge: "../card-images/liverpool.png",
     club: "Bournemouth",
     played: 38,
     // won: 15,
@@ -118,7 +118,7 @@ const premierLeague2024_25 = [
   },
   {
     //10
-    //badge: "/Liverpool.png"
+    badge: "../card-images/liverpool.png",
     club: "Brentford",
     played: 38,
     // won: 14,
@@ -131,7 +131,7 @@ const premierLeague2024_25 = [
   },
   {
     //11
-    //badge: "/Liverpool.png"
+    badge: "../card-images/liverpool.png",
     club: "Fulham",
     played: 38,
     // won: 13,
@@ -144,7 +144,7 @@ const premierLeague2024_25 = [
   },
   {
     //12
-    //badge: "/Liverpool.png"
+    badge: "../card-images/liverpool.png",
     club: "Crystal Palace",
     played: 38,
     // won: 12,
@@ -157,7 +157,7 @@ const premierLeague2024_25 = [
   },
   {
     //13
-    //badge: "/Liverpool.png"
+    badge: "../card-images/liverpool.png",
     club: "Everton",
     played: 38,
     // won: 11,
@@ -170,7 +170,7 @@ const premierLeague2024_25 = [
   },
   {
     //14
-    //badge: "/Liverpool.png"
+    badge: "../card-images/liverpool.png",
     club: "West Ham",
     played: 38,
     // won: 10,
@@ -183,7 +183,7 @@ const premierLeague2024_25 = [
   },
   {
     //15
-    //badge: "/Liverpool.png"
+    badge: "../card-images/liverpool.png",
     club: "Manchester United",
     played: 38,
     // won: 10,
@@ -196,7 +196,7 @@ const premierLeague2024_25 = [
   },
   {
     //16
-    //badge: "/Liverpool.png"
+    badge: "../card-images/liverpool.png",
     club: "Wolves",
     played: 38,
     // won: 9,
@@ -209,7 +209,7 @@ const premierLeague2024_25 = [
   },
   {
     //17
-    //badge: "/Liverpool.png"
+    badge: "../card-images/liverpool.png",
     club: "Tottenham",
     played: 38,
     // won: 8,
@@ -222,7 +222,7 @@ const premierLeague2024_25 = [
   },
   {
     //18
-    //badge: "/Liverpool.png"
+    badge: "../card-images/liverpool.png",
     club: "Leicester",
     played: 38,
     // won: 7,
@@ -235,7 +235,7 @@ const premierLeague2024_25 = [
   },
   {
     //19
-    //badge: "/Liverpool.png"
+    badge: "../card-images/liverpool.png",
     club: "Ipswich Town",
     played: 38,
     // won: 6,
@@ -248,7 +248,7 @@ const premierLeague2024_25 = [
   },
   {
     //20
-    //badge: "/Liverpool.png"
+    badge: "../card-images/liverpool.png",
     club: "Southampton",
     played: 38,
     // won: 5,
