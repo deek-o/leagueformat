@@ -1,38 +1,34 @@
 import Table from "react-bootstrap/Table";
 
-function basicTable(){
-    return(
-        <Table striped bordered hover>
+function basicTable({ badge, pos, club, matches, points, gd }) {
+  return (
+    <Table striped bordered hover>
       <thead>
         <tr>
-          <th>#</th>
-          <th>First Name</th>
-          <th>Last Name</th>
-          <th>Username</th>
+          <th>Badge</th>
+          <th>Pos</th>
+          <th>Club</th>
+          <th>Played</th>
+          <th>Points</th>
+          <th>Goal Difference</th>
         </tr>
       </thead>
       <tbody>
-        <tr>
-          <td>1</td>
-          <td>Mark</td>
-          <td>Otto</td>
-          <td>@mdo</td>
-        </tr>
-        <tr>
-          <td>2</td>
-          <td>Jacob</td>
-          <td>Thornton</td>
-          <td>@fat</td>
-        </tr>
-        <tr>
-          <td>3</td>
-          <td colSpan={2}>Larry the Bird</td>
-          <td>@twitter</td>
-        </tr>
+        {teams.map((team, index) => (
+          <tr key={team.club}>
+            <td>
+              <img src={team.badge} alt={team.club} width="30" />
+            </td>
+            <td>{index + 1}</td>
+            <td>{team.club}</td>
+            <td>{team.played}</td>
+            <td>{team.points}</td>
+            <td>{team.goalDifference}</td>
+          </tr>
+        ))}
       </tbody>
     </Table>
-    )
-    
+  );
 }
 
 export default basicTable;

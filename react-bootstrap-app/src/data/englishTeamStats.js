@@ -1,0 +1,262 @@
+const premierLeague2024_25 = [
+  {
+    //1
+    //badge: "/Liverpool.png"
+    club: "Liverpool",
+    played: 38,
+    // won: 25,
+    // drawn: 9,
+    // lost: 4,
+    // goalsFor: 84,
+    // goalsAgainst: 39,
+    points: 84,
+    goalDifference: 45,
+  },
+  {
+    //2
+    //badge: "/Liverpool.png"
+    club: "Arsenal",
+    played: 38,
+    // won: 20,
+    // drawn: 14,
+    // lost: 4,
+    // goalsFor: 74,
+    // goalsAgainst: 39,
+    points: 74,
+    goalDifference: 35,
+  },
+  {
+    //3
+    //badge: "/Liverpool.png"
+    club: "Manchester City",
+    played: 38,
+    // won: 21,
+    // drawn: 7,
+    // lost: 10,
+    // goalsFor: 71,
+    // goalsAgainst: 43,
+    points: 71,
+    goalDifference: 28,
+  },
+  {
+    //4
+    //badge: "/Liverpool.png"
+    club: "Chelsea",
+    played: 38,
+    // won: 20,
+    // drawn: 9,
+    // lost: 9,
+    // goalsFor: 69,
+    // goalsAgainst: 48,
+    points: 69,
+    goalDifference: 21,
+  },
+  {
+    //5
+    //badge: "/Liverpool.png"
+    club: "Newcastle United",
+    played: 38,
+    // won: 20,
+    // drawn: 6,
+    // lost: 12,
+    // goalsFor: 66,
+    // goalsAgainst: 45,
+    points: 66,
+    goalDifference: 21,
+  },
+  {
+    //6
+    //badge: "/Liverpool.png"
+    club: "Aston Villa",
+    played: 38,
+    // won: 19,
+    // drawn: 9,
+    // lost: 10,
+    // goalsFor: 66,
+    // goalsAgainst: 59,
+    points: 66,
+    goalDifference: 7,
+  },
+  {
+    //7
+    //badge: "/Liverpool.png"
+    club: "Nottingham Forest",
+    played: 38,
+    // won: 19,
+    // drawn: 8,
+    // lost: 11,
+    // goalsFor: 65,
+    // goalsAgainst: 53,
+    points: 65,
+    goalDifference: 12,
+  },
+  {
+    //8
+    //badge: "/Liverpool.png"
+    club: "Brighton & Hove Albion",
+    played: 38,
+    // won: 16,
+    // drawn: 13,
+    // lost: 9,
+    // goalsFor: 61,
+    // goalsAgainst: 54,
+    points: 61,
+    goalDifference: 7,
+  },
+  {
+    //9
+    //badge: "/Liverpool.png"
+    club: "Bournemouth",
+    played: 38,
+    // won: 15,
+    // drawn: 11,
+    // lost: 12,
+    // goalsFor: 56,
+    // goalsAgainst: 44,
+    points: 56,
+    goalDifference: 12,
+  },
+  {
+    //10
+    //badge: "/Liverpool.png"
+    club: "Brentford",
+    played: 38,
+    // won: 14,
+    // drawn: 10,
+    // lost: 14,
+    // goalsFor: 52,
+    // goalsAgainst: 50,
+    points: 56,
+    goalDifference: 9,
+  },
+  {
+    //11
+    //badge: "/Liverpool.png"
+    club: "Fulham",
+    played: 38,
+    // won: 13,
+    // drawn: 12,
+    // lost: 13,
+    // goalsFor: 48,
+    // goalsAgainst: 49,
+    points: 54,
+    goalDifference: 0,
+  },
+  {
+    //12
+    //badge: "/Liverpool.png"
+    club: "Crystal Palace",
+    played: 38,
+    // won: 12,
+    // drawn: 10,
+    // lost: 16,
+    // goalsFor: 47,
+    // goalsAgainst: 58,
+    points: 53,
+    goalDifference: 0,
+  },
+  {
+    //13
+    //badge: "/Liverpool.png"
+    club: "Everton",
+    played: 38,
+    // won: 11,
+    // drawn: 9,
+    // lost: 18,
+    // goalsFor: 42,
+    // goalsAgainst: 61,
+    points: 48,
+    goalDifference: -2,
+  },
+  {
+    //14
+    //badge: "/Liverpool.png"
+    club: "West Ham",
+    played: 38,
+    // won: 10,
+    // drawn: 11,
+    // lost: 17,
+    // goalsFor: 41,
+    // goalsAgainst: 58,
+    points: 43,
+    goalDifference: -16,
+  },
+  {
+    //15
+    //badge: "/Liverpool.png"
+    club: "Manchester United",
+    played: 38,
+    // won: 10,
+    // drawn: 9,
+    // lost: 19,
+    // goalsFor: 38,
+    // goalsAgainst: 56,
+    points: 42,
+    goalDifference: -10,
+  },
+  {
+    //16
+    //badge: "/Liverpool.png"
+    club: "Wolves",
+    played: 38,
+    // won: 9,
+    // drawn: 10,
+    // lost: 19,
+    // goalsFor: 35,
+    // goalsAgainst: 62,
+    points: 42,
+    goalDifference: -15,
+  },
+  {
+    //17
+    //badge: "/Liverpool.png"
+    club: "Tottenham",
+    played: 38,
+    // won: 8,
+    // drawn: 11,
+    // lost: 19,
+    // goalsFor: 33,
+    // goalsAgainst: 61,
+    points: 38,
+    goalDifference: -1,
+  },
+  {
+    //18
+    //badge: "/Liverpool.png"
+    club: "Leicester",
+    played: 38,
+    // won: 7,
+    // drawn: 9,
+    // lost: 22,
+    // goalsFor: 28,
+    // goalsAgainst: 61,
+    points: 25,
+    goalDifference: -47,
+  },
+  {
+    //19
+    //badge: "/Liverpool.png"
+    club: "Ipswich Town",
+    played: 38,
+    // won: 6,
+    // drawn: 8,
+    // lost: 24,
+    // goalsFor: 25,
+    // goalsAgainst: 65,
+    points: 22,
+    goalDifference: -46,
+  },
+  {
+    //20
+    //badge: "/Liverpool.png"
+    club: "Southampton",
+    played: 38,
+    // won: 5,
+    // drawn: 7,
+    // lost: 26,
+    // goalsFor: 22,
+    // goalsAgainst: 68,
+    points: 12,
+    goalDifference: 60,
+  },
+];

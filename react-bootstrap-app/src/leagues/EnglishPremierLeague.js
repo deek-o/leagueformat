@@ -1,13 +1,23 @@
-import BasicTable from "../components/Table"
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import BasicTable from "../components/Table";
 function EnglishPremierLeague() {
   return (
-    <div>
-      <h1>English Premier League</h1>
-      <p>Details about the EPL go here…</p>
-      <BasicTable/>
-    </div>
+    <Container>
+      <Row>
+        <Col>
+          <div className="justify-content-center mt-5">
+            <BasicTable />
+          </div>
+        </Col>
+      </Row>
+    </Container>
+    // <div>
+    //   <h1>English Premier League</h1>
+    //   <p>Details about the EPL go here…</p>
 
-    
+    // </div>
   );
 }
 
