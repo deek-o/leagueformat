@@ -1,10 +1,10 @@
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import BasicCard from "../components/Cards"
-import Leagues from "../card-images/card-leagues.jpg";
-import Nations from "../card-images/nations.jpg";
-import World from "../card-images/world_map.jpg";
+import BasicCard from "../components/Cards";
+//import World from "../card-images/world_map.jpg";
+//import Nations from "../card-images/nations.jpg";
+// import Leagues from "../card-images/card-leagues.jpg";
 import countryData from "../data/continents2Nations";
 import GoButton from "../components/GoButton";
 import { useState } from "react";
@@ -47,14 +47,16 @@ function Myhomepage() {
     <>
       <Container>
         <p className="text-center pt-4 pb-5">
-          Welcome to LeagueFormat.com!
-          This passion project was created to help fans understand how football leagues around the world work 
-          — whether it’s promotion and relegation, playoff systems, or how champions are crowned. 
-          With this site, you can explore the structure of leagues across continents, from traditional formats to unique systems. 
-          This site is built with HTML, CSS, and JavaScript, using the React-Bootstrap framework. 
-          It’s a work in progress and will continue to grow as I add more leagues over time.
-          Whether you’re a curious fan, a new follower of the sport, or just someone who likes to dig into how things work, I hope you find this site helpful.
-          Thanks for visiting!
+          Welcome to LeagueFormat.com! This passion project was created to help
+          fans understand how football leagues around the world work — whether
+          it’s promotion and relegation, playoff systems, or how champions are
+          crowned. With this site, you can explore the structure of leagues
+          across continents, from traditional formats to unique systems. This
+          site is built with HTML, CSS, and JavaScript, using the
+          React-Bootstrap framework. It’s a work in progress and will continue
+          to grow as I add more leagues over time. Whether you’re a curious fan,
+          a new follower of the sport, or just someone who likes to dig into how
+          things work, I hope you find this site helpful. Thanks for visiting!
         </p>
         <div className="d-flex justify-content-center">
           <Row
@@ -62,7 +64,7 @@ function Myhomepage() {
             style={{ maxWidth: "1200px" }}>
             <Col className="pb-4">
               <BasicCard
-                image={World}
+                image={"/images/card-images/world_map.jpg"}
                 title={"Select Continent"}
                 value={selectedContinent}
                 text={
@@ -78,7 +80,7 @@ function Myhomepage() {
             </Col>
             <Col className="pb-4">
               <BasicCard
-                image={Nations}
+                image={"/images/card-images/nations.jpg"}
                 title={"Select Nation"}
                 value={selectedNation}
                 text={"Now select the Nation in which the league exists"}
@@ -91,7 +93,7 @@ function Myhomepage() {
             </Col>
             <Col className="pb-4">
               <BasicCard
-                image={Leagues}
+                image={"/images/card-images/card-leagues.jpg"}
                 title={"Select League"}
                 text={
                   "Lastly, choose the league to view details of its format."

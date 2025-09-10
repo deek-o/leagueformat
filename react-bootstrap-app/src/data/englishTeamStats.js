@@ -1,7 +1,7 @@
 export const englishTeamData = [
   {
     //1
-    badge: "/card-images/liverpool.png",
+    badge: "/images/club-images/liverpool.png",
     club: "Liverpool",
     played: 38,
     // won: 25,
