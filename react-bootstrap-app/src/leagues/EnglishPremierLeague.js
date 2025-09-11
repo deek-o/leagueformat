@@ -11,7 +11,7 @@ function EnglishPremierLeague() {
     <Container>
       <Row>
         <Col>
-          <div className="justify-content-center mt-5">
+          <div className="mt-5 w-auto">
             <BasicTable teams={englishTeamData} />
           </div>
         </Col>

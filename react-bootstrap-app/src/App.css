@@ -37,6 +37,11 @@
   }
 }
 
+.table-fixed {
+  table-layout: fixed;
+  width: auto;   /* don’t stretch to 100% */
+}
+
 
 
 

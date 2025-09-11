@@ -2,7 +2,7 @@ import Table from "react-bootstrap/Table";
 
 function basicTable({ teams }) {
   return (
-    <Table striped bordered hover>
+    <Table striped bordered hover size="sm" className="table-fixed mx-auto">
       <thead>
         <tr>
           <th>Badge</th>
