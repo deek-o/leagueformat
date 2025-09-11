@@ -1,7 +1,7 @@
 export const englishTeamData = [
   {
     //1
-    badge: "/images/club-images/liverpool.png",
+    badge: "/images/club-images/english-prem/liverpool.png",
     club: "Liverpool",
     played: 38,
     // won: 25,
@@ -14,7 +14,7 @@ export const englishTeamData = [
   },
   {
     //2
-    badge: "../card-images/liverpool.png",
+    badge: "/images/club-images/english-prem/arsenal.png",
     club: "Arsenal",
     played: 38,
     // won: 20,
@@ -27,7 +27,7 @@ export const englishTeamData = [
   },
   {
     //3
-    badge: "../card-images/liverpool.png",
+    badge: "/images/club-images/english-prem/mancity.png",
     club: "Manchester City",
     played: 38,
     // won: 21,
@@ -40,7 +40,7 @@ export const englishTeamData = [
   },
   {
     //4
-    badge: "../card-images/liverpool.png",
+    badge: "/images/club-images/english-prem/chelsea.png",
     club: "Chelsea",
     played: 38,
     // won: 20,
@@ -53,7 +53,7 @@ export const englishTeamData = [
   },
   {
     //5
-    badge: "../card-images/liverpool.png",
+    badge: "/images/club-images/english-prem/liverpool.png",
     club: "Newcastle United",
     played: 38,
     // won: 20,
@@ -66,7 +66,7 @@ export const englishTeamData = [
   },
   {
     //6
-    badge: "../card-images/liverpool.png",
+    badge: "/images/club-images/english-prem/liverpool.png",
     club: "Aston Villa",
     played: 38,
     // won: 19,
@@ -79,7 +79,7 @@ export const englishTeamData = [
   },
   {
     //7
-    badge: "../card-images/liverpool.png",
+    badge: "/images/club-images/english-prem/liverpool.png",
     club: "Nottingham Forest",
     played: 38,
     // won: 19,
@@ -92,7 +92,7 @@ export const englishTeamData = [
   },
   {
     //8
-    badge: "../card-images/liverpool.png",
+    badge: "/images/club-images/english-prem/liverpool.png",
     club: "Brighton & Hove Albion",
     played: 38,
     // won: 16,
@@ -105,7 +105,7 @@ export const englishTeamData = [
   },
   {
     //9
-    badge: "../card-images/liverpool.png",
+    badge: "/images/club-images/english-prem/liverpool.png",
     club: "Bournemouth",
     played: 38,
     // won: 15,
@@ -118,7 +118,7 @@ export const englishTeamData = [
   },
   {
     //10
-    badge: "../card-images/liverpool.png",
+    badge: "/images/club-images/english-prem/liverpool.png",
     club: "Brentford",
     played: 38,
     // won: 14,
@@ -131,7 +131,7 @@ export const englishTeamData = [
   },
   {
     //11
-    badge: "../card-images/liverpool.png",
+    badge: "/images/club-images/english-prem/liverpool.png",
     club: "Fulham",
     played: 38,
     // won: 13,
@@ -144,7 +144,7 @@ export const englishTeamData = [
   },
   {
     //12
-    badge: "../card-images/liverpool.png",
+    badge: "/images/club-images/english-prem/liverpool.png",
     club: "Crystal Palace",
     played: 38,
     // won: 12,
@@ -157,7 +157,7 @@ export const englishTeamData = [
   },
   {
     //13
-    badge: "../card-images/liverpool.png",
+    badge: "/images/club-images/english-prem/liverpool.png",
     club: "Everton",
     played: 38,
     // won: 11,
@@ -170,7 +170,7 @@ export const englishTeamData = [
   },
   {
     //14
-    badge: "../card-images/liverpool.png",
+    badge: "/images/club-images/english-prem/liverpool.png",
     club: "West Ham",
     played: 38,
     // won: 10,
@@ -183,7 +183,7 @@ export const englishTeamData = [
   },
   {
     //15
-    badge: "../card-images/liverpool.png",
+    badge: "/images/club-images/english-prem/liverpool.png",
     club: "Manchester United",
     played: 38,
     // won: 10,
@@ -196,7 +196,7 @@ export const englishTeamData = [
   },
   {
     //16
-    badge: "../card-images/liverpool.png",
+    badge: "/images/club-images/english-prem/liverpool.png",
     club: "Wolves",
     played: 38,
     // won: 9,
@@ -209,7 +209,7 @@ export const englishTeamData = [
   },
   {
     //17
-    badge: "../card-images/liverpool.png",
+    badge: "/images/club-images/english-prem/liverpool.png",
     club: "Tottenham",
     played: 38,
     // won: 8,
@@ -222,7 +222,7 @@ export const englishTeamData = [
   },
   {
     //18
-    badge: "../card-images/liverpool.png",
+    badge: "/images/club-images/english-prem/liverpool.png",
     club: "Leicester",
     played: 38,
     // won: 7,
@@ -235,7 +235,7 @@ export const englishTeamData = [
   },
   {
     //19
-    badge: "../card-images/liverpool.png",
+    badge: "/images/club-images/english-prem/liverpool.png",
     club: "Ipswich Town",
     played: 38,
     // won: 6,
@@ -248,7 +248,7 @@ export const englishTeamData = [
   },
   {
     //20
-    badge: "../card-images/liverpool.png",
+    badge: "/images/club-images/english-prem/liverpool.png",
     club: "Southampton",
     played: 38,
     // won: 5,

@@ -17,7 +17,7 @@ function basicTable({ teams }) {
         {teams.map((team, index) => (
           <tr key={team.club}>
             <td>
-              <img src={team.badge} width="30" />
+              <img src={team.badge} width="40" />
             </td>
             <td>{index + 1}</td>
             <td>{team.club}</td>
