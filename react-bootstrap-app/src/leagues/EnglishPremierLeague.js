@@ -4,14 +4,14 @@ import Col from "react-bootstrap/Col";
 import BasicTable from "../components/Table";
 import { englishTeamData } from "../data/englishTeamStats";
 
-const teams = [englishTeamData];
+const teams = englishTeamData;
 
 function EnglishPremierLeague() {
   return (
     <Container>
       <Row>
         <Col>
-          <div className="mt-5 w-auto">
+          <div className="mt-5">
             <BasicTable teams={englishTeamData} />
           </div>
         </Col>
