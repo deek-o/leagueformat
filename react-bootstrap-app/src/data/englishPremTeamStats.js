@@ -131,7 +131,7 @@ export const englishPremTeamData = [
   },
   {
     //11
-    badge: "/images/club-images/english-prem/liverpool.png",
+    badge: "/images/club-images/english-prem/fulham.png",
     club: "Fulham",
     played: 38,
     // won: 13,
@@ -144,7 +144,7 @@ export const englishPremTeamData = [
   },
   {
     //12
-    badge: "/images/club-images/english-prem/liverpool.png",
+    badge: "/images/club-images/english-prem/crystalpalace.png",
     club: "Crystal Palace",
     played: 38,
     // won: 12,
@@ -157,7 +157,7 @@ export const englishPremTeamData = [
   },
   {
     //13
-    badge: "/images/club-images/english-prem/liverpool.png",
+    badge: "/images/club-images/english-prem/everton.png",
     club: "Everton",
     played: 38,
     // won: 11,
@@ -170,8 +170,8 @@ export const englishPremTeamData = [
   },
   {
     //14
-    badge: "/images/club-images/english-prem/liverpool.png",
-    club: "West Ham",
+    badge: "/images/club-images/english-prem/westham.png",
+    club: "West Ham United",
     played: 38,
     // won: 10,
     // drawn: 11,
@@ -183,7 +183,7 @@ export const englishPremTeamData = [
   },
   {
     //15
-    badge: "/images/club-images/english-prem/liverpool.png",
+    badge: "/images/club-images/english-prem/manunited.png",
     club: "Manchester United",
     played: 38,
     // won: 10,
@@ -196,8 +196,8 @@ export const englishPremTeamData = [
   },
   {
     //16
-    badge: "/images/club-images/english-prem/liverpool.png",
-    club: "Wolves",
+    badge: "/images/club-images/english-prem/wolves.png",
+    club: "Wolverhampton Wanderers",
     played: 38,
     // won: 9,
     // drawn: 10,
@@ -209,8 +209,8 @@ export const englishPremTeamData = [
   },
   {
     //17
-    badge: "/images/club-images/english-prem/liverpool.png",
-    club: "Tottenham",
+    badge: "/images/club-images/english-prem/tottenham.png",
+    club: "Tottenham Hotspur",
     played: 38,
     // won: 8,
     // drawn: 11,
@@ -222,8 +222,8 @@ export const englishPremTeamData = [
   },
   {
     //18
-    badge: "/images/club-images/english-prem/liverpool.png",
-    club: "Leicester",
+    badge: "/images/club-images/english-prem/leicester.png",
+    club: "Leicester City",
     played: 38,
     // won: 7,
     // drawn: 9,
@@ -235,7 +235,7 @@ export const englishPremTeamData = [
   },
   {
     //19
-    badge: "/images/club-images/english-prem/liverpool.png",
+    badge: "/images/club-images/english-prem/ipswich.png",
     club: "Ipswich Town",
     played: 38,
     // won: 6,
@@ -248,7 +248,7 @@ export const englishPremTeamData = [
   },
   {
     //20
-    badge: "/images/club-images/english-prem/liverpool.png",
+    badge: "/images/club-images/english-prem/southampton.png",
     club: "Southampton",
     played: 38,
     // won: 5,
