@@ -53,7 +53,7 @@ export const englishTeamData = [
   },
   {
     //5
-    badge: "/images/club-images/english-prem/liverpool.png",
+    badge: "/images/club-images/english-prem/newcastle.png",
     club: "Newcastle United",
     played: 38,
     // won: 20,
@@ -66,7 +66,7 @@ export const englishTeamData = [
   },
   {
     //6
-    badge: "/images/club-images/english-prem/liverpool.png",
+    badge: "/images/club-images/english-prem/astonVilla.png",
     club: "Aston Villa",
     played: 38,
     // won: 19,
@@ -79,7 +79,7 @@ export const englishTeamData = [
   },
   {
     //7
-    badge: "/images/club-images/english-prem/liverpool.png",
+    badge: "/images/club-images/english-prem/nottinghamforest.png",
     club: "Nottingham Forest",
     played: 38,
     // won: 19,
@@ -92,7 +92,7 @@ export const englishTeamData = [
   },
   {
     //8
-    badge: "/images/club-images/english-prem/liverpool.png",
+    badge: "/images/club-images/english-prem/brighton.png",
     club: "Brighton & Hove Albion",
     played: 38,
     // won: 16,
@@ -105,7 +105,7 @@ export const englishTeamData = [
   },
   {
     //9
-    badge: "/images/club-images/english-prem/liverpool.png",
+    badge: "/images/club-images/english-prem/bournemouth.png",
     club: "Bournemouth",
     played: 38,
     // won: 15,
@@ -118,7 +118,7 @@ export const englishTeamData = [
   },
   {
     //10
-    badge: "/images/club-images/english-prem/liverpool.png",
+    badge: "/images/club-images/english-prem/brentford.png",
     club: "Brentford",
     played: 38,
     // won: 14,
