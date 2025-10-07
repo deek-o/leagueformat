@@ -2,9 +2,9 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import BasicTable from "../components/Table";
-import { englishTeamData } from "../data/englishTeamStats";
+import { englishPremTeamData } from "../data/englishPremTeamStats";
 
-const teams = englishTeamData;
+const teams = englishPremTeamData;
 
 function EnglishPremierLeague() {
   return (
@@ -12,7 +12,7 @@ function EnglishPremierLeague() {
       <Row>
         <Col>
           <div className="mt-5">
-            <BasicTable teams={englishTeamData} />
+            <BasicTable teams={englishPremTeamData} />
           </div>
         </Col>
       </Row>

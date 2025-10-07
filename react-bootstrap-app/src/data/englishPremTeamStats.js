@@ -1,4 +1,4 @@
-export const englishTeamData = [
+export const englishPremTeamData = [
   {
     //1
     badge: "/images/club-images/english-prem/liverpool.png",
