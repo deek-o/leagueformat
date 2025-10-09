@@ -232,6 +232,7 @@ export const englishPremTeamData = [
     // goalsAgainst: 61,
     points: 25,
     goalDifference: -47,
+    isRel: true,
   },
   {
     //19
@@ -245,6 +246,7 @@ export const englishPremTeamData = [
     // goalsAgainst: 65,
     points: 22,
     goalDifference: -46,
+    isRel: true,
   },
   {
     //20
@@ -258,5 +260,6 @@ export const englishPremTeamData = [
     // goalsAgainst: 68,
     points: 12,
     goalDifference: 60,
+    isRel: true,
   },
 ];
