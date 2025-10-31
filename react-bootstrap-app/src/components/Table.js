@@ -1,13 +1,8 @@
 import Table from "react-bootstrap/Table";
 
-function basicTable({ teams }) {
+function BasicTable({ teams }) {
   return (
-    <Table
-      striped
-      bordered
-      hover
-      size="sm"
-      className="w-auto mx-auto text-center">
+    <Table bordered hover size="sm" className="w-auto mx-auto text-center">
       <thead>
         <tr>
           <th>Badge</th>
@@ -20,7 +15,15 @@ function basicTable({ teams }) {
       </thead>
       <tbody>
         {teams.map((team, index) => (
-          <tr key={team.club}>
+          <tr
+            key={team.club}
+            className={
+              team.isRel
+                ? "table-danger"
+                : team.isChampion
+                ? "table-warning"
+                : ""
+            }>
             <td>
               <img src={team.badge} width="28" />
             </td>
@@ -36,4 +39,4 @@ function basicTable({ teams }) {
   );
 }
 
-export default basicTable;
+export default BasicTable;
