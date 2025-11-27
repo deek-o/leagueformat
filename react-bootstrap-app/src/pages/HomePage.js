@@ -13,7 +13,7 @@ import { useNavigate } from "react-router-dom";
 function Myhomepage() {
   const [selectedContinent, setSelectedContinent] = useState("");
   const [selectedNation, setSelectedNation] = useState("");
-  const [selectedLeague, setSelectedLeague] = useState("");
+  const [selectedLeague, setSelectedLeague] = useState("");//collects user selections in dropdown
 
   const navigate = useNavigate();
 
